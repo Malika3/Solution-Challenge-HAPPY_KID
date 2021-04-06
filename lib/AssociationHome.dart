@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:happy_kid/onboarding3.dart';
 
-class onboarding2 extends StatelessWidget {
+class AssociationHome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -9,7 +8,7 @@ class onboarding2 extends StatelessWidget {
       body: SafeArea(
         child: Container(
           // we will give media query height
-          // double.infinity make it big as my parent allowsr
+          // double.infinity make it big as my parent allows
           // while MediaQuery make it big as per the screen
 
           width: double.infinity,
@@ -41,7 +40,7 @@ class onboarding2 extends StatelessWidget {
                   Padding(
                     padding: EdgeInsets.all(60.0),),
                   Text(
-                    "Are you a charity association help us suggesting kids who need to ",
+                    "Do you want to spread joy for some kids?",
                     textAlign: TextAlign.center,
 
                     style: TextStyle(
@@ -63,26 +62,7 @@ class onboarding2 extends StatelessWidget {
 
                   // creating the next button
                   SizedBox(height:20),
-                  MaterialButton(
-                    minWidth: double.infinity,
-                    height: 60,
-                    onPressed: (){
-                      Navigator.push(context, MaterialPageRoute(builder: (context)=> onboarding3()));
 
-                    },
-                    color: Color(0xffec644e),
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(50)
-                    ),
-                    child: Text(
-                      "Next",
-                      style: TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.w600,
-                          fontSize: 18
-                      ),
-                    ),
-                  )
 
                 ],
               )

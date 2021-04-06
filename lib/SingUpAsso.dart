@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:happy_kid/AssociationHome.dart';
 
-class SignUp extends StatelessWidget {
+class SignUpAsso extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -58,6 +59,7 @@ class SignUp extends StatelessWidget {
                   inputFile(label: "Password", obscureText: true),
                   inputFile(label: "Confirm Password ", obscureText: true),
 
+
                 ],
               ),
               Container(
@@ -79,11 +81,13 @@ class SignUp extends StatelessWidget {
                 child: MaterialButton(
                   minWidth: double.infinity,
                   height: 60,
-                  onPressed: () {},
+                  onPressed: () { Navigator.push(context, MaterialPageRoute(builder: (context)=> AssociationHome()));},
                   color: Color(0xffec644e),
                   elevation: 0,
+
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(50),
+
 
                   ),
                   child: Text(
@@ -103,10 +107,11 @@ class SignUp extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  Text("Already have an account?"),
+                  Text("Already have an account?", style: TextStyle(color: Colors.grey[700]),),
                   Text(" Login", style:TextStyle(
                       fontWeight: FontWeight.w600,
-                      fontSize: 18
+                      fontSize: 18,
+                      color: Colors.grey,
                   ),
                   )
                 ],

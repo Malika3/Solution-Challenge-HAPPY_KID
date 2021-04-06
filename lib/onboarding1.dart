@@ -9,7 +9,7 @@ class onboarding1 extends StatelessWidget {
       body: SafeArea(
         child: Container(
           // we will give media query height
-          // double.infinity make it big as my parent allowsr
+          // double.infinity make it big as my parent allows
           // while MediaQuery make it big as per the screen
 
           width: double.infinity,
@@ -27,23 +27,25 @@ class onboarding1 extends StatelessWidget {
             SizedBox(
             height: 20,
           ),
+            Padding(
+              padding: EdgeInsets.all(50.0),),
           Container(
             height: MediaQuery.of(context).size.height / 4,
             decoration: BoxDecoration(
                 image: DecorationImage(
-                    image: AssetImage("assets/welcome.png")
+                    image: AssetImage("assets/kids.png")
 
                 )
             ),
           ),
             Padding(
-              padding: EdgeInsets.all(25.0),),
+              padding: EdgeInsets.all(60.0),),
           Text(
-            "If you are an association you can help mentioning in the app poor families having kids under the age of 15",
+            "Do you want to spread joy for some kids?",
             textAlign: TextAlign.center,
 
             style: TextStyle(
-            fontWeight: FontWeight.bold,
+            fontWeight: FontWeight.normal,
             fontSize: 20,
             color: Color(0xffec644e),
 
@@ -51,22 +53,7 @@ class onboarding1 extends StatelessWidget {
           ),
 
         ),
-            Divider(
-              color: Colors.black,
-            ),
-            Text(
-              "Or you are not? What do you think of spreading  joy to those kids mentioned by any association",
-              textAlign: TextAlign.center,
 
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 20,
-                color: Color(0xffec644e),
-
-
-              ),
-
-            ),
         ],
       ),
 

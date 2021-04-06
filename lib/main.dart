@@ -1,7 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:happy_kid/onboarding2.dart';
+import 'package:happy_kid/onboarding3.dart';
 import 'package:happy_kid/onboarding1.dart';
 
 
@@ -37,6 +37,8 @@ class HomePage extends StatelessWidget {
                   SizedBox(
                     height: 20,
                   ),
+                  Padding(
+                    padding: EdgeInsets.all(60.0),),
                   Container(
                     height: MediaQuery.of(context).size.height / 4,
                     decoration: BoxDecoration(
@@ -46,31 +48,21 @@ class HomePage extends StatelessWidget {
                         )
                     ),
                   ),
+                  Padding(
+                    padding: EdgeInsets.all(5.0),),
                   Text("Every kid deserves to be happy",
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: Color(0xffec644e),
                       fontSize: 13,
-                      fontWeight: FontWeight.bold,
-
-
-                    ),
-
-                  ),
-                 Padding(
-                  padding: EdgeInsets.all(50.0),),
-                  Text(
-                    "Our mission is to insure an equal life to every kid, seems cool right? You can participate to acheive this too!",
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
                       fontWeight: FontWeight.normal,
-                      fontSize: 20,
-                      color: Color(0xffec644e),
 
 
                     ),
 
                   ),
+
+
                 ],
               ),
 
