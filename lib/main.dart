@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:happy_kid/AssociationHome.dart';
 import 'package:happy_kid/onboarding3.dart';
 import 'package:happy_kid/onboarding1.dart';
 
@@ -43,8 +44,7 @@ class HomePage extends StatelessWidget {
                     height: MediaQuery.of(context).size.height / 4,
                     decoration: BoxDecoration(
                         image: DecorationImage(
-                            image: AssetImage("assets/welcome.png")
-
+                            image: AssetImage("assets/welcome.png"),
                         )
                     ),
                   ),

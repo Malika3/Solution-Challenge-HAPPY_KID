@@ -17,12 +17,15 @@ environment:
   sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
+  sticky_infinite_list: ^4.0.0
+  curved_navigation_bar:
   flutter:
     sdk: flutter
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
+
 
 dev_dependencies:
   flutter_test:
@@ -43,7 +46,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/welcome.png
-    - assets/happ.jpg
+    - assets/happ.png
     - assets/kids.png
     - assets/kids2.jpg
     - assets/kids3.svg

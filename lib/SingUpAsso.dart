@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:happy_kid/AssociationHome.dart';
+import 'package:happy_kid/onboarding2.dart';
 
 class SignUpAsso extends StatelessWidget {
   @override

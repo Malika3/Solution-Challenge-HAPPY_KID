@@ -33,7 +33,7 @@ class onboarding2 extends StatelessWidget {
                     height: MediaQuery.of(context).size.height / 4,
                     decoration: BoxDecoration(
                         image: DecorationImage(
-                            image: AssetImage("assets/kids.png")
+                            image: AssetImage("assets/happ.png")
 
                         )
                     ),
