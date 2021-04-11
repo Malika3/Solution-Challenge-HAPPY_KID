@@ -39,9 +39,9 @@ class onboarding2 extends StatelessWidget {
                     ),
                   ),
                   Padding(
-                    padding: EdgeInsets.all(60.0),),
+                    padding: EdgeInsets.all(15.0),),
                   Text(
-                    "Are you a charity association help us suggesting kids who need to ",
+                    "    Are you a charity association so help us suggesting kids who deserve to live happily",
                     textAlign: TextAlign.center,
 
                     style: TextStyle(
@@ -53,6 +53,19 @@ class onboarding2 extends StatelessWidget {
                     ),
 
                   ),
+                  Padding(
+                    padding: EdgeInsets.all(15.0),),
+                    Text(
+                      " Or you can just check what associations suggested and help! ",
+                      textAlign: TextAlign.center,
+
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 20,
+                        color: Color(0xffec644e),
+
+                      ),
+                    ),
 
                 ],
               ),
