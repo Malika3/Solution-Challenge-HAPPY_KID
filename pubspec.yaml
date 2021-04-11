@@ -17,6 +17,7 @@ environment:
   sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
+  quick_form: ^1.0.1
   curved_navigation_bar:
   flutter:
     sdk: flutter
@@ -49,6 +50,9 @@ flutter:
     - assets/kids.png
     - assets/kids2.jpg
     - assets/kids3.svg
+    - assets/nada.jpg
+    - assets/assoEx.png
+    - assets/pic.jpg
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
